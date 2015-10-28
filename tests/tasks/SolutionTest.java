@@ -7,10 +7,10 @@ import java.util.Random;
 import static org.junit.Assert.*;
 
 /**
- * Created by shmagrinskiy on 27.10.15.
+ * Test for tasks form LeetCode
  */
 public class SolutionTest {
-    
+
     private static int calcDigitsSum(int n) {
         int result = n;
         int buf = 0;
@@ -22,7 +22,6 @@ public class SolutionTest {
             result = buf;
             buf = 0;
         }
-        ;
         return result;
     }
 
