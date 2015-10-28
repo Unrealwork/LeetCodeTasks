@@ -37,7 +37,7 @@ public class Solution {
      * Поиск максимальной глубины в дереве
      * @param root корень дерева
      * @see <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Max Tree Depth</a>
-     * @return максимальную глубину для текущего дерева
+     * @return Максимальную глубину для текущего дерева
      */
     public static int maxDepth(TreeNode root) {
        return maxDepthRecursive(root, 0);
