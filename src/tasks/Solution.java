@@ -10,6 +10,7 @@ import structures.trees.TreeNode;
 public class Solution {
     /**
      * Вычисление цифрового корня числа за O(1)
+     *
      * @param num - число для которого нужно вычислить цифровой корень
      * @return цифровой корень числа n
      */
@@ -20,8 +21,9 @@ public class Solution {
     /**
      * Поиск максимальной глубины в двоичном дереве
      * рекурсивная функция
+     *
      * @param curNode - текущий узел
-     * @param height - глубина - текущая
+     * @param height  - глубина - текущая
      * @return максимальную глубину для текущего узла
      */
     private static int maxDepthRecursive(TreeNode curNode, int height) {
@@ -35,11 +37,12 @@ public class Solution {
 
     /**
      * Поиск максимальной глубины в дереве
+     *
      * @param root корень дерева
-     * @see <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Max Tree Depth</a>
      * @return максимальную глубину для текущего дерева
+     * @see <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Max Tree Depth</a>
      */
     public static int maxDepth(TreeNode root) {
-       return maxDepthRecursive(root, 0);
+        return maxDepthRecursive(root, 0);
     }
 }

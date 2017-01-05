@@ -1,10 +1,8 @@
 package tasks;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
-import java.util.Random;
-
-import static org.junit.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 /**
  * Test for tasks form LeetCode
@@ -28,7 +26,7 @@ public class SolutionTest {
     @Test
     public void testAddDigits() throws Exception {
         int MAX_NUM = 1000;
-        for (int i = 0; i<MAX_NUM; i++) {
+        for (int i = 0; i < MAX_NUM; i++) {
             assertEquals(calcDigitsSum(i), Solution.addDigits(i));
         }
     }
