@@ -1,5 +1,6 @@
-package tasks;
+package com.leetcode.problems;
 
+import com.leetcode.problems.digitalroot.DigitalRoot;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
@@ -7,7 +8,7 @@ import static org.testng.Assert.assertEquals;
 /**
  * Test for tasks form LeetCode
  */
-public class SolutionTest {
+public class DigitalRootTest {
 
     private static int calcDigitsSum(int n) {
         int result = n;
@@ -27,7 +28,7 @@ public class SolutionTest {
     public void testAddDigits() throws Exception {
         int MAX_NUM = 1000;
         for (int i = 0; i < MAX_NUM; i++) {
-            assertEquals(calcDigitsSum(i), Solution.addDigits(i));
+            assertEquals(calcDigitsSum(i), DigitalRoot.addDigits(i));
         }
     }
 }

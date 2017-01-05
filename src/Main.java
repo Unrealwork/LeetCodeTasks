@@ -1,5 +1,5 @@
-import structures.trees.TreeNode;
-import tasks.Solution;
+import com.leetcode.problems.structures.trees.TreeNode;
+import com.leetcode.problems.digitalroot.DigitalRoot;
 
 public class Main {
 
@@ -8,6 +8,6 @@ public class Main {
         root.left = new TreeNode(1);
         root.left.left = new TreeNode(2);
         root.right = new TreeNode(4);
-        System.out.println(Solution.maxDepth(root));
+        System.out.println(DigitalRoot.maxDepth(root));
     }
 }

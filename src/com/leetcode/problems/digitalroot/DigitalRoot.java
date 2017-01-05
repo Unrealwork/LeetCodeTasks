@@ -1,13 +1,13 @@
-package tasks;
+package com.leetcode.problems.digitalroot;
 
-import structures.trees.TreeNode;
+import com.leetcode.problems.structures.trees.TreeNode;
 
 /**
  * Tasks form LeetCode
  */
 
 
-public class Solution {
+public class DigitalRoot {
     /**
      * Вычисление цифрового корня числа за O(1)
      *

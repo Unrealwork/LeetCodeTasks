@@ -1,8 +1,5 @@
-package structures.trees;
+package com.leetcode.problems.structures.trees;
 
-/**
- * Created by shmagrinskiy on 28.10.15.
- */
 public class TreeNode {
     public TreeNode left;
     public TreeNode right;
