@@ -1,6 +1,6 @@
 package com.leetcode.problems.digitalroot;
 
-import com.leetcode.problems.structures.trees.TreeNode;
+import com.leetcode.problems.models.TreeNode;
 
 /**
  * Tasks form LeetCode

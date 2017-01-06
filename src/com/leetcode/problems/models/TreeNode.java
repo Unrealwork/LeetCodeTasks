@@ -1,4 +1,4 @@
-package com.leetcode.problems.structures.trees;
+package com.leetcode.problems.models;
 
 public class TreeNode {
     public TreeNode left;
