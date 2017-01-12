@@ -1,6 +1,8 @@
-package flipinteger;
+package com.leetcode.problems.flipinteger;
 
-
+/**
+ * @see<a href="https://leetcode.com/problems/number-complement/">Single Number</a>
+ */
 public class FlipInteger {
     //TODO: rewrite with bits operator
     public static int findComplement(int num) {

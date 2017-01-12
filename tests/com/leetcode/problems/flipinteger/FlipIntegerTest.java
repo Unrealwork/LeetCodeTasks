@@ -1,4 +1,4 @@
-package flipinteger;
+package com.leetcode.problems.flipinteger;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
