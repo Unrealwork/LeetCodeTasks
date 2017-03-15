@@ -2,6 +2,10 @@ package com.leetcode.problems.singleelement;
 
 
 public class SingleElement {
+    private SingleElement() {
+
+    }
+
     public static int singleNonDuplicate(int[] nums) {
         int l = nums.length;
         int currentMiddle = nums.length / 2;
